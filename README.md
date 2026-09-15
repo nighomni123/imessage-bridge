@@ -23,21 +23,12 @@ DSH Agent (Mac) ──MCP stdio──▶ imessage-bridge ──REST API──▶
 
 ## What it looks like in action
 
-> 📸 TODO(owner): drop `demo.png` here — screenshot 1–2 exchanges from the real
-> self-chat (agent asking for a decision → your one-line reply → agent resuming
-> and shipping). This section is the whole README for a viewer who won't run it.
->
-> **Masking requirements before any upload (learned the hard way):** crop the
-> app header (handle / phone / chat name); remove or fake any message
-> containing real numbers, chat GUIDs, server URLs or contact names — prefer
-> staging a fresh demo exchange on a throwaway chat and screenshotting that.
-> Keep the file out of git until it has been eyeballed: never amend a pushed
-> commit to fix a screenshot.
+![A real exchange over iMessage relayed by the bridge: the agent checks in mid-run, a one-line reply unblocks it, the work continues](demo.jpg)
 
-The proof-of-life behind the placeholder: this bridge is the human-in-the-loop
-channel my agent fleet reports through — research, code and status updates
-arrive on the phone, and a one-line reply unblocks the run. Orchestration in
-the background, not chat-by-chat micromanagement.
+This bridge is the human-in-the-loop channel my agent fleet reports through —
+research, code and status updates arrive on the phone, and a one-line reply
+unblocks the run. Orchestration in the background, not chat-by-chat
+micromanagement.
 
 ## Prerequisites
 
