@@ -1,0 +1,13 @@
+{
+  "name": "imessage-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "description": "Dependency-free MCP stdio bridge between agent harnesses (DSH) and iMessage via BlueBubbles.",
+  "bin": { "imessage-bridge": "index.mjs" },
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}
